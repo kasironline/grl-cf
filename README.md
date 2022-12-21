@@ -1,3 +1,3 @@
 # grl-cf
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/withastro-astro-cz2az1)
+[https://www.fiverr.com/creativitas/create-your-custom-website-and-app](https://www.fiverr.com/creativitas/create-your-custom-website-and-app)
