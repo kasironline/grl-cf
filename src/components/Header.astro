@@ -1,0 +1,17 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../config';
+---
+
+<header class="container-fluid">
+<div class="row p-3 bg-dark rounded me-3 ms-3 mt-3 mb-3 text-center">
+	<p class="col-md-3 col-12">
+	<strong><a href="/" class="text-white">
+		{SITE_TITLE}
+		</a></strong>
+	</p>
+		<HeaderLink class="col-md-3 col-4 text-white" href="/">Home</HeaderLink>
+		<HeaderLink class="col-md-3 col-4 text-white" href="/website">Services</HeaderLink>
+		<HeaderLink class="col-md-3 col-4 text-white" href="/developer">About</HeaderLink>
+	</div>
+</header>

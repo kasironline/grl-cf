@@ -1,0 +1,9 @@
+---
+const today = new Date();
+import { SITE_TITLE } from '../config';
+import Services from '../widget/Services.astro';
+---
+<Services/>
+<footer class="col-md-12 p-1 text-center">
+	&copy; {today.getFullYear()} {SITE_TITLE} powered by cloudflare develope by creativitas
+</footer>

@@ -1,0 +1,47 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+export interface Props {
+	content: {
+		title: string;
+		description: string;
+		pubDate?: string;
+		updatedDate?: string;
+		heroImage?: string;
+		btn: string;
+	};
+}
+
+const {
+	content: { title, description, pubDate, updatedDate, heroImage,btn },
+} = Astro.props;
+---
+
+<html lang="en">
+	<head>
+	<meta name="google-site-verification" content="WH5yK5pEky5qND2FOW3_hvm3VlPkjRtV731y81BcsTc" />
+		<BaseHead title={title} description={description} />
+	</head>
+
+	<body>
+		<Header />
+		<main class="container">
+			<article class="row">
+			<div class="col-md-12 p-3 p-md-5">
+				{heroImage && <img width="100%" height="100%" class="img-fluid rounded mb-5" src={heroImage} alt={title} />}
+				<h1 class="title"><strong><a href="/" title={title}>{title}</a></strong></h1>
+				<h2>{description}</h2>
+				<div class="p-3">
+				<slot />
+				<a href={btn} class="btn btn-outline-dark btn-lg mt-3">Order {title} →</a>			
+				</div>
+				</div>
+			</article>
+		</main>
+		<div class="container-fluid">
+		<Footer />
+		</div>
+	</body>
+</html>

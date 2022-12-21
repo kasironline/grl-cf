@@ -1,0 +1,20 @@
+export const title = 'Limousine service provider';
+export const description =
+  'You can search for limousine service providers in here.';
+export const slug = 'Limousine service,car , party bus on';
+export const macon = 'Macon Limousine';
+export const maconlink = 'https://www.maconlimo.com';
+export const augusta = 'Augusta Car';
+export const augustalink = 'https://www.augustacarservice.com';
+export const houston = 'Houston Limousine';
+export const houstonlink = 'https://www.grandlimousine.com';
+export const atlanta = 'Atlanta Limousine';
+export const atlantalink = 'https://www.grandlimoatlanta.com';
+export const austin = 'Austin Limousine';
+export const austinlink = 'https://www.grandlimoaustin.com';
+export const augustas = 'Augusta Limousine';
+export const augustaslink = 'https://www.augustalimoservice.com';
+export const wb = 'Warner Robins';
+export const wblink = 'https://www.grandlimowarnerrobins.com';
+export const columbus = 'Columbus Limo';
+export const columbuslink = 'https://www.grandlimocolumbus.com';

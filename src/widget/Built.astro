@@ -1,0 +1,13 @@
+---
+import { SITE_TITLE,slogan } from '../config';
+import { built,textbuilt,btnbuilt,linkbuilt } from '../data/home';
+import Provider from '../widget/Provider.astro';
+import Template from '../widget/Themes.astro';
+---
+<Provider/>
+<Template/>
+<div class="col-md-10 offset-md-1 bg-dark text-white text-center rounded p-3 p-md-5 mt-5 mb-5">
+<h3><strong><a href="/" class="text-white" title={SITE_TITLE}>{built}</a></strong></h3>
+<p>{textbuilt}</p>
+<a href={linkbuilt} class="btn btn-light rounded-pill col-md-3 p-3 col-12">{btnbuilt}</a>
+</div>
