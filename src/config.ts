@@ -13,3 +13,4 @@ export const servicesbtn = 'Select Services →';
 export const blog = 'Grand Limousine Website Development Services.';
 export const blogdesc =
   'Built modern limousine and car website with new technology , website optimation , and SEO Services.';
+export const url = 'https://grandlimousine.pages.dev';
